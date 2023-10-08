@@ -14,30 +14,39 @@
         android:rowCount="3">
 
         <Button
-            android:id="@+id/btn1"/>
+            android:id="@+id/btn1"
+            android:onClick="checkBtn"/>
         <Button
             android:id="@+id/btn2"
-            android:layout_marginLeft="15dp"/>
+            android:layout_marginLeft="15dp"
+            android:onClick="checkBtn"/>
         <Button
             android:id="@+id/btn3"
-            android:layout_marginLeft="15dp"/>
+            android:layout_marginLeft="15dp"
+            android:onClick="checkBtn"/>
         <Button
-            android:id="@+id/btn4"/>
+            android:id="@+id/btn4"
+            android:onClick="checkBtn"/>
 
         <Button
             android:id="@+id/btn5"
-            android:layout_marginLeft="15dp"/>
+            android:layout_marginLeft="15dp"
+            android:onClick="checkBtn"/>
         <Button
             android:id="@+id/btn6"
-            android:layout_marginLeft="15dp"/>
+            android:layout_marginLeft="15dp"
+            android:onClick="checkBtn"/>
         <Button
-            android:id="@+id/btn7"/>
+            android:id="@+id/btn7"
+            android:onClick="checkBtn"/>
         <Button
             android:id="@+id/btn8"
-            android:layout_marginLeft="15dp"/>
+            android:layout_marginLeft="15dp"
+            android:onClick="checkBtn"/>
         <Button
             android:id="@+id/btn9"
-            android:layout_marginLeft="15dp"/>
+            android:layout_marginLeft="15dp"
+            android:onClick="checkBtn"/>
 
     </GridLayout>
 
